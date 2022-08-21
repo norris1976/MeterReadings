@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimNorris.MeterReading.API", "TimNorris.MeterReading.API\TimNorris.MeterReading.API.csproj", "{AE7154D2-5021-4234-A100-11CB02C92340}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{CC2C31FB-D854-4F98-BB23-94142C66164F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{A75AF95E-6841-42D6-9A7C-D50DCF1E790E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{0B7EAFE7-9F5B-49E6-9B13-A4EF96A83E6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{18B44988-E358-4DDC-A2A0-43D7C9D5AAFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6E82FA01-177F-49BC-9E70-65938DD8FE7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimNorris.MeterReadings.LocalDb", "TimNorris.MeterReadings.LocalDb\TimNorris.MeterReadings.LocalDb.csproj", "{19D2CB55-B18D-4ABD-A5A3-AB34D49BDDBF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimNorris.MeterReadings.Infrastructure", "TimNorris.MeterReadings.Infrastructure\TimNorris.MeterReadings.Infrastructure.csproj", "{C2D56685-20D4-4EED-830C-04F623566D51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimNorris.MeterReadings.Domain", "TimNorris.MeterReadings.Domain\TimNorris.MeterReadings.Domain.csproj", "{3AFDF2A3-0610-40B7-8F73-59050D180FC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimNorris.MeterReadings.Application", "TimNorris.MeterReadings.Application\TimNorris.MeterReadings.Application.csproj", "{14DE9A0E-820C-4626-AE26-BF40BB73C26B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimNorris.MeterReadings.Api.Client", "TimNorris,MeterReadings.Api.Client\TimNorris.MeterReadings.Api.Client.csproj", "{58E63024-4F96-43F0-93E4-D0522CF739B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimNorris.MeterReadings.Application.UnitTests", "TimNorris.MeterReadings.Application.UnitTests\TimNorris.MeterReadings.Application.UnitTests.csproj", "{E48D50A0-D298-47BE-80B5-4D397A29E3E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimNorris.MeterReadings.Application.API.IntegrationTests", "TimNorris.MeterReadings.Application.API.IntegrationTests\TimNorris.MeterReadings.Application.API.IntegrationTests.csproj", "{F0C47C29-59E9-4BE1-80BE-58461EE20294}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE7154D2-5021-4234-A100-11CB02C92340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7154D2-5021-4234-A100-11CB02C92340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7154D2-5021-4234-A100-11CB02C92340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7154D2-5021-4234-A100-11CB02C92340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19D2CB55-B18D-4ABD-A5A3-AB34D49BDDBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19D2CB55-B18D-4ABD-A5A3-AB34D49BDDBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19D2CB55-B18D-4ABD-A5A3-AB34D49BDDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19D2CB55-B18D-4ABD-A5A3-AB34D49BDDBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2D56685-20D4-4EED-830C-04F623566D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2D56685-20D4-4EED-830C-04F623566D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2D56685-20D4-4EED-830C-04F623566D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2D56685-20D4-4EED-830C-04F623566D51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AFDF2A3-0610-40B7-8F73-59050D180FC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AFDF2A3-0610-40B7-8F73-59050D180FC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AFDF2A3-0610-40B7-8F73-59050D180FC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AFDF2A3-0610-40B7-8F73-59050D180FC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14DE9A0E-820C-4626-AE26-BF40BB73C26B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14DE9A0E-820C-4626-AE26-BF40BB73C26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14DE9A0E-820C-4626-AE26-BF40BB73C26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14DE9A0E-820C-4626-AE26-BF40BB73C26B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E63024-4F96-43F0-93E4-D0522CF739B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E63024-4F96-43F0-93E4-D0522CF739B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E63024-4F96-43F0-93E4-D0522CF739B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E63024-4F96-43F0-93E4-D0522CF739B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E48D50A0-D298-47BE-80B5-4D397A29E3E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E48D50A0-D298-47BE-80B5-4D397A29E3E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E48D50A0-D298-47BE-80B5-4D397A29E3E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E48D50A0-D298-47BE-80B5-4D397A29E3E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0C47C29-59E9-4BE1-80BE-58461EE20294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0C47C29-59E9-4BE1-80BE-58461EE20294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0C47C29-59E9-4BE1-80BE-58461EE20294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0C47C29-59E9-4BE1-80BE-58461EE20294}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE7154D2-5021-4234-A100-11CB02C92340} = {CC2C31FB-D854-4F98-BB23-94142C66164F}
+		{19D2CB55-B18D-4ABD-A5A3-AB34D49BDDBF} = {18B44988-E358-4DDC-A2A0-43D7C9D5AAFB}
+		{C2D56685-20D4-4EED-830C-04F623566D51} = {18B44988-E358-4DDC-A2A0-43D7C9D5AAFB}
+		{3AFDF2A3-0610-40B7-8F73-59050D180FC6} = {0B7EAFE7-9F5B-49E6-9B13-A4EF96A83E6F}
+		{14DE9A0E-820C-4626-AE26-BF40BB73C26B} = {CC2C31FB-D854-4F98-BB23-94142C66164F}
+		{58E63024-4F96-43F0-93E4-D0522CF739B2} = {CC2C31FB-D854-4F98-BB23-94142C66164F}
+		{E48D50A0-D298-47BE-80B5-4D397A29E3E5} = {6E82FA01-177F-49BC-9E70-65938DD8FE7B}
+		{F0C47C29-59E9-4BE1-80BE-58461EE20294} = {6E82FA01-177F-49BC-9E70-65938DD8FE7B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BFBAD45-A7D5-4B54-93EE-2936B3886146}
+	EndGlobalSection
+EndGlobal

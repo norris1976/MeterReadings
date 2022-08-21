@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.2.0" />
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.8" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TimNorris,MeterReadings.Api.Client\TimNorris.MeterReadings.Api.Client.csproj" />
+    <ProjectReference Include="..\TimNorris.MeterReadings.Application\TimNorris.MeterReadings.Application.csproj" />
+    <ProjectReference Include="..\TimNorris.MeterReadings.Domain\TimNorris.MeterReadings.Domain.csproj" />
+    <ProjectReference Include="..\TimNorris.MeterReadings.Infrastructure\TimNorris.MeterReadings.Infrastructure.csproj" />
+    <ProjectReference Include="..\TimNorris.MeterReadings.LocalDb\TimNorris.MeterReadings.LocalDb.csproj" />
+  </ItemGroup>
+
+</Project>
