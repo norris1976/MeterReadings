@@ -15,7 +15,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TimNorris.MeterReadings.Domain\TimNorris.MeterReadings.Domain.csproj" />
-    <ProjectReference Include="..\TimNorris.MeterReadings.LocalDb\TimNorris.MeterReadings.LocalDb.csproj" />
   </ItemGroup>
 
 </Project>

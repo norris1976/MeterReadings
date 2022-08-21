@@ -1,13 +1,14 @@
-﻿using TimNorris.MeterReadings.Domain.Models;
-using TimNorris.MeterReadings.LocalDb.Context;
+﻿using TimNorris.MeterReadings.Application.Queries;
+using TimNorris.MeterReadings.Domain.Models;
+using TimNorris.MeterReadings.Infrastructure.Context;
 
-namespace TimNorris.MeterReadings.Application.Queries
+namespace TimNorris.MeterReadings.Infrastructure.Queries
 {
     public class AccountQuery : IAccountQuery
     {
-        private readonly LocalDbContext _dbContext;
+        private readonly IDbContext _dbContext;
 
-        public AccountQuery(LocalDbContext dbContext)
+        public AccountQuery(IDbContext dbContext)
         {
             _dbContext = dbContext;
         }

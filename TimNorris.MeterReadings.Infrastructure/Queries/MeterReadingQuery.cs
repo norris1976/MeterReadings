@@ -1,15 +1,14 @@
-﻿using Microsoft.EntityFrameworkCore;
-using TimNorris.MeterReadings.Application.Configuration;
+﻿using TimNorris.MeterReadings.Application.Queries;
 using TimNorris.MeterReadings.Domain.Models;
-using TimNorris.MeterReadings.LocalDb.Context;
+using TimNorris.MeterReadings.Infrastructure.Context;
 
-namespace TimNorris.MeterReadings.Application.Queries
+namespace TimNorris.MeterReadings.Infrastructure.Queries
 {
     public class MeterReadingQuery : IMeterReadingQuery
     {
-        private readonly LocalDbContext _dbContext;
+        private readonly IDbContext _dbContext;
 
-        public MeterReadingQuery(LocalDbContext dbContext)
+        public MeterReadingQuery(IDbContext dbContext)
         {
             _dbContext = dbContext;
         }

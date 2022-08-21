@@ -7,7 +7,6 @@ namespace TimNorris.MeterReadings.Application.Bootstrapping
         public static IServiceCollection BootstrapApplication(this IServiceCollection services)
             => services
                 .BootstrapMediator()
-                .BootstrapServices()
-                .BootstrapData();
+                .BootstrapServices();
     }
 }

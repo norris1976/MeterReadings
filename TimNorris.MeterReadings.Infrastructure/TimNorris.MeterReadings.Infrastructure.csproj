@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TimNorris.MeterReadings.Domain\TimNorris.MeterReadings.Domain.csproj" />
+    <ProjectReference Include="..\TimNorris.MeterReadings.Application\TimNorris.MeterReadings.Application.csproj" />
   </ItemGroup>
 
 </Project>

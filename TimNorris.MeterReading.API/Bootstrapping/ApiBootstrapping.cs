@@ -1,4 +1,5 @@
 ﻿using TimNorris.MeterReadings.Application.Bootstrapping;
+using TimNorris.MeterReadings.Infrastructure.Bootstrapping;
 using TimNorris.MeterReadings.LocalDb.Bootstrapping;
 
 namespace TimNorris.MeterReading.API.Bootstrapping
@@ -12,6 +13,7 @@ namespace TimNorris.MeterReading.API.Bootstrapping
                 services
                     .BootstrapLocalDb(configurationManager.GetConnectionString("LocalDbConnectionString"))
                     .BootstrapApplication()
+                    .BootstrapInfrastructure()
                     .BootstrapValidation();
     }
 }

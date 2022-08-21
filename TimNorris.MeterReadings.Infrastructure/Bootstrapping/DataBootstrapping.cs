@@ -1,8 +1,10 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using TimNorris.MeterReadings.Application.Queries;
 using TimNorris.MeterReadings.Application.Repositories;
+using TimNorris.MeterReadings.Infrastructure.Queries;
+using TimNorris.MeterReadings.Infrastructure.Repositories;
 
-namespace TimNorris.MeterReadings.Application.Bootstrapping
+namespace TimNorris.MeterReadings.Infrastructure.Bootstrapping
 {
     internal static class DataBootstrapping
     {
